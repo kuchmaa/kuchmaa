@@ -1,0 +1,30 @@
+{
+  "name": "kuchmaa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "deploy": "vite deploy"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.15.4",
+    "@tailwindcss/vite": "^4.1.18",
+    "solid-icons": "^1.1.0",
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "~5.9.3",
+    "vite": "npm:rolldown-vite@7.2.5",
+    "vite-plugin-gh-pages": "^1.0.1",
+    "vite-plugin-solid": "^2.11.10"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  }
+}
