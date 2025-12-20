@@ -1,3 +1,6 @@
+import { useLocation } from '@solidjs/router';
+
 export default function Test() {
-  return <h1>Test</h1>;
+  const url = useLocation();
+  return <h1>Test {url.pathname}</h1>;
 }
